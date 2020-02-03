@@ -56,12 +56,12 @@ hr{
     opacity: 0.9;
 }
 
-.registerbtn:hover {
+/* .registerbtn:hover {
     opacity: 1;
     width: 250px;
-    background: coral;
+    background: coral; */
     /* transition: ease-out .35s; */
-}
+/* } */
 
 a {
     color: dodgerblue;
