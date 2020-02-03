@@ -6,7 +6,7 @@ function validateForm () {
     const password = document.getElementById("password").value
     const confirmpassword = document.getElementById("confirmpassword").value
 
-     if (password != confirmpassword) {
+     if (password !== confirmpassword) {
          alert("Passwords do not match.");   
      }
 
