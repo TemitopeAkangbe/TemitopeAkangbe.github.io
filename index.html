@@ -4,40 +4,215 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>VGG Registration Form</title>
+    <title>Arrays</title>
 </head>
 <body>
-    <form>
-    <div class="container">
-        <h1>Register here with Venture Garden Group</h1>
-        <p>Please fill this form to create an account.</p>
-        <hr>
- 
-        <label for="name"><b>Name</b></label>
-        <input id="name" type="text" placeholder="Enter your First Name" required>
-        <br>
+       <h2>View the answers in the console</h2>
+       <h2>Q1.</h2>
+        <p>We have the following arrays</p>
+        <p>color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "];</p>
+        
+       <p>o = ["th","st","nd","rd"]</p> 
+        
+       <p>Write a JavaScript program to display the colors in the following way :</p>
+        <p>"1st choice is Blue."</p>
+        <p>"2nd choice is Green."</p>
+        <p>"3rd choice is Red."</p> 
+        
+        <h2>Q2.</h2>  
+        <p>Write a simple JavaScript program to join all elements of the following array into a string. Go to the editor</p>
+        <p>Sample array : myColor = ["Red", "Green", "White", "Black"];</p>
+        <p>Expected Output :</p>
+        <p>"Red,Green,White,Black"</p>
+        <p>"Red,Green,White,Black"</p>
+        <p>"Red+Green+White+Black"</p>
+        
+        
+       <h2>Q3.</h2>
+        <p>employees = [ </p>
+           <p> { </p>
+                <p>id: 1,</p>
+                <p>first_name: 'Nestor',</p>
+                <p>email: 'nede0@va.gov',</p>
+                <p>gender: 'Male',</p>
+                <p>age: 35,</p>
+                <p>ip_address: '80.95.217.202',</p>
+                <p>Car: 'Chevrolet',</p>
+                <p>Country: 'Russia',</p>
+                <p>Company: 'Ozu',</p>
+                <p>Job: 'Research Associate',</p>
+                <p>Language: 'Kannada',</p>
+                <p>phone: '369-416-1791',</p>
+                <p>active: true,</p>
+                <p>salary: 350000</p>
+            <p>},</p>
 
-        <label for="email"><b>Email</b></label>
-        <input id="email" type="text" placeholder="Enter Email" name="email" required>
-        <br>
+            <p>{</p>
+              <p>id: 2,</p>
+              <p>first_name: 'Boony',</p>
+              <p>email: 'bconsidine1@dailymail.co.uk',</p>
+              <p>gender: 'Male',</p>
+              <p>age: 30,</p>
+              <p>ip_address: '158.108.174.143',</p>
+              <p>Car: 'Kia',</p>
+              <p>Country: 'Indonesia',</p>
+              <p>Company: 'Flashspan',</p>
+              <p>Job: 'Engineer IV',</p>
+              <p>Language: 'Bosnian',</p>
+              <p>phone: '878-260-8542',</p>
+              <p>active: true,</p>
+              <p>salary: 150000</p>
+            <p>},</p>
 
-        <label for="psw"><b>Password</b></label>
-        <input id="password" type="password" placeholder="Enter Password between 8 to 16 characters" name="psw" minlength = "8" maxlength = "16" required>
-        <br>
-    
-        <label for="psw-repeat"><b>Confirm Password</b></label>
-        <input id ="confirmpassword" type="password" placeholder="Confirm Password" name="psw-repeat" minlength = "8" maxlength = "16" required>
-        <hr>
+           <p>{</p>
+               <p> id: 3,</p>
+               <p>first_name: 'Humfrid',</p>
+               <p>email: 'hmacaree2@craigslist.org',</p>
+               <p>gender: 'Male',</p>
+               <p>ip_address: '13.121.145.193',</p>
+               <p>age: 25,</p>
+               <p>Car: 'Dodge',</p>
+               <p>Country: 'China',</p>
+               <p>Company: 'Mita',</p>
+               <p>Job: 'Web Designer',</p>
+               <p>Language: 'Bosnian',</p>
+               <p>phone: '721-765-6270',</p>
+               <p>active: true,</p>
+               <p>salary: 550000</p>
+           <p>},</p>
 
-        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-        <button type="submit" class="registerbtn" onclick="validateForm">Register</button>
-    </div>
-     
-    <div class="container signin">
-        <p>Already have an account?<a href="#">Sign in</a>.</p>
-    </div>
-</form>
+           <p>{ </p>
+               <p>id: 4,</p>
+               <p>first_name: 'Hirsch',</p>
+               <p>email: 'halbury3@themeforest.net',</p>
+               <p>gender: 'Male',</p>
+               <p>age: 21,</p>
+               <p>ip_address: '154.153.161.16',</p>
+               <p>Car: 'Dodge',</p>
+               <p>Country: 'Russia',</p>
+               <p>Company: 'Kaymbo',</p>
+               <p>Job: 'Software Consultant',</p>
+               <p>Language: 'Northern Sotho',</p>
+               <p>phone: '515-581-1165',</p>
+               <p>active: true,</p>
+               <p>salary: 250000.08</p>
+           <p>},</p>
+
+           <p>{ </p>
+               <p> id: 5,</p>
+               <p>first_name: 'Granny',</p>
+               <p>email: 'gmcsharry4@buzzfeed.com',</p>
+               <p>gender: 'Male',</p>
+               <p>age: 23,</p>
+               <p>ip_address: '171.48.242.209',</p>
+               <p>Car: 'Ford',</p>
+               <p>Country: 'China',</p>
+               <p>Company: 'Youtags',</p>
+               <p>Job: 'Senior Quality Engineer',</p>
+               <p>Language: 'Swedish',</p>
+               <p>phone: '757-973-8706',</p>
+               <p>salary: 300000.05,</p>
+               <p>active: true</p>
+           <p>},</p>
+
+           <p>{</p>
+              <p>id: 6,</p>
+              <p>first_name: 'Bob',</p>
+              <p>email: 'bbortolomei5@stanford.edu',</p>
+              <p>gender: 'Male',</p>
+              <p>age: 19,</p>
+              <p>ip_address: '138.88.133.136',</p>
+              <p>Car: 'Honda',</p>
+              <p>Country: 'Poland',</p>
+              <p>Company: 'Vipe',</p>
+              <p>Job: 'Web Designer',</p>
+              <p>Language: 'Aymara', </p>
+              <p>phone: '227-946-1788',</p>
+              <p>active: true,</p>
+              <p>salary: 100000</p>
+         <p>},</p>
+
+           <p> { </p>
+              <p> id: 7,</p>
+              <p>first_name: 'Chen',</p>
+              <p>email: 'cyurshev6@wikipedia.org',</p>
+              <p>gender: 'Male',</p>
+              <p>age: 20,</p>
+              <p>ip_address: '76.98.240.178',</p>
+              <p>Car: 'Audi',</p>
+              <p>Country: 'Thailand',</p>
+              <p>Company: 'Midel',</p>
+              <p>Job: 'Web Designer',</p>
+              <p>Language: 'Malagasy',</p>
+              <p>phone: '361-127-0004',</p>
+              <p>active: false,</p>
+              <p> salary: 300000</p>
+           <p>},</p>
+
+           <p>{</p>
+               <p>id: 8,</p>
+               <p>first_name: 'Jacquetta',</p>
+               <p>email: 'jtretwell7@macromedia.</p>
+               <p>gender: 'Female',</p>
+               <p> age: 28,</p>
+               <p>ip_address: '125.157.172.237',</p>
+               <p> Car: 'Ford',</p>
+               <p>Country: 'Russia',</p>
+               <p>Company: 'Devpoint',</p>
+               <p>Job: 'Web Developer',</p>
+               <p> Language: 'Papiamento',</p>
+               <p>phone: '542-329-7755',</p>
+               <p> active: false,</p>
+               <p>salary: 130000</p>
+           <p> }, </p>
+
+           <p>{ </p>
+               <p>id: 9,</p>
+               <p>first_name: 'Marget',</p>
+               <p>email: 'msooley8@nba.com',</p>
+               <p>gender: 'Female',</p>
+               <p>age: 30,</p>
+               <p>ip_address: '231.239.40.29',</p>
+               <p>Car: 'Pontiac',</p>
+               <p>Country: 'Nigeria',</p>
+               <p>Company: 'Photobean',</p>
+               <p>Job: 'Web Developer',</p>
+               <p>Language: 'Hebrew',</p>
+               <p>phone: '502-799-5098',</p>
+               <p>active: false,</p>
+               <p>salary: 750000.5</p>
+           <p> },</p>
+            <p>{</p>
+               <p>id: 10,</p>
+               <p>first_name: 'Tomkin',</p>
+               <p>email: 'tkohtler9@howstuffworks.com',</p>
+               <p>gender: 'Male',</p>
+               <p>age: 17,</p>
+               <p>ip_address: '121.234.135.93',</p>
+               <p>Car: 'Pontiac',</p>
+               <p>Country: 'Nigeria',</p>
+               <p>Company: 'Jaxbean',</p>
+               <p>Job: 'Database Administrator',</p>
+               <p>Language: 'Filipino',</p>
+               <p>phone: '692-372-4141',</p>
+               <p>active: false,</p></p>
+               <p>salary: 50000</p>
+           <p>}</p>
+        <p>]</p>
+        
+        
+        
+          a.) => Return a new array with those employees that are web developers
+        <br>
+          b.) => Return a new array with those employees that are both web developers and from Nigeria
+        <br>
+          c.) => Return a new array with those employees below 20
+        <br>
+          d.) => Return a new array with those employees that are active
+        <br>
+          e.) => Find the highest paid developer
+        
+        
 </body>
-<script src="scripts.js"></script>
+<script src="color.js"></script>
 </html>
